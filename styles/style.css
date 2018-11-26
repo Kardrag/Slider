@@ -1,0 +1,42 @@
+body{
+	background-image: url('../images/background.jpeg');
+	background-size: cover;
+}
+  
+.description {
+  margin-top: 25px;
+  text-align:center;
+  text-decoration: 
+}
+
+.description p{
+  font-size: 20px;
+  margin: 0px 0px 10px 0px;
+}
+
+.indicators {
+	font-size: 50px;
+	display: flex;
+	justify-content: space-around;
+	margin-top: 20px;
+	text-shadow: 10px;
+	animation:flip-horizontal-bottom .4s cubic-bezier(.455,.03,.515,.955) both;
+}
+
+.prevPicture:hover, .nextPicture:hover {
+	text-shadow: 4px 2px 5px rgba(0, 0, 0, 0.75);
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+.displayedImage {
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px;
+  height: 700px;
+  border-radius: 5%;
+  box-shadow: 10px 10px 35px 15px rgba(0,0,0,1);
+  transition: 1s;
+}
+
